@@ -1,0 +1,23 @@
+# Archivos de registro y salida generados
+*.log
+*.out
+
+# Archivos de compilación y carpetas generadas por Maven
+target/
+.idea/
+
+# Archivos de configuración específicos de IDE
+*.iml
+.idea/
+.vscode/
+*.classpath
+*.project
+
+# Archivos de configuración local de MySQL
+/src/main/resources/application.properties
+
+# Carpetas y archivos específicos de dependencias (pueden variar)
+/webapp/WEB-INF/lib/
+/vendor/
+/node_modules/
+/target/
